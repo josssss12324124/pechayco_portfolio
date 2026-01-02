@@ -1,0 +1,48 @@
+/* Body & Layout Settings */
+body {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.01em;
+}
+
+/* Custom Scrollbar (Blue Theme) */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+    background: #2563eb;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #1e40af;
+}
+
+/* Animations Logic */
+.reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: transform, opacity;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Card Hover Enhancements */
+.bg-card {
+    transition: all 0.3s ease;
+}
+
+.bg-card:hover {
+    background: #151515;
+    border-color: rgba(37, 99, 235, 0.4);
+}
+
+/* Resume link hover */
+a[download]:hover {
+    box-shadow: 0 0 15px rgba(37, 99, 235, 0.3);
+}
