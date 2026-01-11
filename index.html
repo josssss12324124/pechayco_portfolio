@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joshua Pechayco | Software Developer Intern</title>
-    <!-- Tailwind CSS -->
+    <title>Joshua Angelo Pechayco | Software Developer Intern</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -13,12 +12,11 @@
             theme: {
                 extend: {
                     colors: {
-                        brand: '#2563eb', // Royal Blue
+                        brand: '#2563eb', 
                         brandDark: '#1e40af',
                         dark: '#0a0a0a',
                         card: '#111111'
-                    },
-                    fontFamily: { sans: ['Inter', 'sans-serif'] }
+                    }
                 }
             }
         }
@@ -26,28 +24,27 @@
 </head>
 <body class="bg-dark text-slate-300 antialiased selection:bg-brand selection:text-white">
 
-    <!-- Subtle Background Glow -->
     <div class="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-900/20 via-dark to-dark"></div>
 
     <!-- Navigation -->
     <nav class="fixed top-0 w-full z-50 border-b border-white/5 bg-dark/90 backdrop-blur-md">
         <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-            <a href="#" class="text-sm font-bold tracking-tighter text-white">JOSHUA ANGELO<span class="text-brand text-xs uppercase ml-1 tracking-widest font-extrabold">Pechayco</span></a>
-            <div class="hidden md:flex items-center space-x-8 text-[11px] font-bold uppercase tracking-widest">
-                <a href="#experience" class="hover:text-brand transition-colors">Experience</a>
+            <a href="#" class="text-sm font-bold tracking-tighter text-white uppercase font-mono tracking-widest">JOSHUA ANGELO<span class="text-brand font-extrabold ml-1">Pechayco</span></a>
+            <div class="hidden md:flex items-center space-x-8 text-[11px] font-bold uppercase tracking-[0.2em]">
+                <a href="#profile" class="hover:text-brand transition-colors">Profile</a>
+                <a href="#skills" class="hover:text-brand transition-colors">Skills</a>
                 <a href="#projects" class="hover:text-brand transition-colors">Projects</a>
-                <a href="mailto:pechaycojoshuaangeloo@gmail.com" class="hover:text-brand transition-colors">Email</a>
-                <!-- Resume Download Button -->
                 <a href="Pechayco_Resume.pdf" download class="px-5 py-2 border border-brand text-brand rounded-md hover:bg-brand hover:text-white transition-all text-[10px]">Download CV</a>
             </div>
         </div>
     </nav>
 
     <main class="max-w-6xl mx-auto px-6 pt-32 pb-20">
+        
         <!-- Hero Section -->
         <section class="grid lg:grid-cols-12 gap-12 items-center mb-40">
             <div class="lg:col-span-7 reveal">
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-brand text-xs font-bold mb-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-brand text-[10px] font-bold mb-6 tracking-widest">
                     <span class="relative flex h-2 w-2">
                         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                         <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
@@ -55,196 +52,264 @@
                     AVAILABLE FOR OJT 2026
                 </div>
                 <h1 class="text-6xl md:text-8xl font-extrabold text-white leading-tight mb-6 tracking-tighter">
-                    Student <br><span class="text-brand">Intern.</span>
+                    Software <br><span class="text-brand italic">Intern.</span>
                 </h1>
-                <p class="text-lg text-slate-400 max-w-xl mb-10 leading-relaxed">
-                    4th Year Information Technology student at <span class="text-white font-semibold">St. Anthony's College</span>. 
-                    Specializing in back-end development, database management, project management, and automated software solutions.
+                <p class="text-lg text-slate-400 max-w-xl mb-10 leading-relaxed font-light">
+                    4th Year Information Technology student at <span class="text-white font-semibold">St. Anthony's College</span>.
+                    Dedicated to building reliable web applications through clean code and efficient database management.
                 </p>
                 <div class="flex flex-wrap gap-4 items-center">
-                    <a href="mailto:pechaycojoshuaangeloo@gmail.com" class="px-8 py-4 bg-brand text-white font-bold rounded-lg hover:bg-brandDark transition-all">Hire Me</a>
-                    <a href="https://www.linkedin.com/in/joshua-angelo-pechayco-892b9339a" target="_blank" class="px-8 py-4 bg-white/5 text-white font-bold rounded-lg border border-white/10 hover:bg-white/10 transition-all">LinkedIn Profile</a>
+                    <a href="mailto:pechaycojoshuaangeloo@gmail.com" class="px-8 py-4 bg-brand text-white font-bold rounded-lg hover:bg-brandDark transition-all text-xs uppercase tracking-widest">Send Email</a>
+                    <a href="https://www.linkedin.com/in/joshua-angelo-pechayco-892b9339a" target="_blank" class="px-8 py-4 bg-white/5 text-white font-bold rounded-lg border border-white/10 hover:bg-white/10 transition-all text-xs uppercase tracking-widest">LinkedIn</a>
                 </div>
             </div>
             <div class="lg:col-span-5 reveal">
                 <div class="relative group">
-                    <!-- Photo Glow Effect -->
-                    <div class="absolute -inset-2 bg-brand/20 blur-2xl opacity-0 group-hover:opacity-100 transition duration-500"></div>
+                    <div class="absolute -inset-2 bg-brand/30 blur-2xl opacity-20 group-hover:opacity-100 transition duration-500"></div>
                     <div class="relative rounded-2xl overflow-hidden border border-white/10 aspect-[4/5] bg-card">
-                        <!-- ACTUAL PHOTO: Full color, no grayscale -->
-                        <img src="pic.png" alt="Joshua Angelo Pechayco" class="w-full h-full object-cover shadow-2xl">
+                        <img src="pic.png" alt="Joshua Angelo Pechayco" class="w-full h-full object-cover shadow-2xl transition-transform duration-700">
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Profile Bento Grid -->
-        <section id="experience" class="mb-40">
+        <!-- Profile Section: Maximized Bio, Minimized Achievements -->
+        <section id="profile" class="mb-40">
             <div class="grid md:grid-cols-3 gap-6">
-                <!-- Academic Excellence (DEAN'S LISTER) -->
-                <div class="md:col-span-2 p-10 rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 text-white reveal shadow-2xl shadow-blue-900/20">
-                    <div class="flex justify-between items-start mb-12">
-                        <span class="text-[10px] font-bold uppercase tracking-[0.3em] opacity-80">Honors & Awards</span>
-                        <svg class="w-10 h-10 opacity-40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
-                    </div>
-                    <h2 class="text-4xl font-black mb-2">Dean's Lister</h2>
-                    <p class="text-lg opacity-90 mb-6 font-medium">1st Semester, Academic Year 2024–2025</p>
-                    <div class="h-[1px] w-full bg-white/20 mb-6"></div>
+                <!-- MAXIMIZED BIOGRAPHY CARD -->
+                <div class="md:col-span-2 p-10 rounded-3xl bg-gradient-to-br from-blue-700/20 to-transparent border border-white/10 reveal relative overflow-hidden">
+                    <div class="absolute -top-24 -right-24 w-64 h-64 bg-brand/5 rounded-full blur-3xl"></div>
                     
-                    <h2 class="text-4xl font-black mb-2">Top Pythonisa Award</h2>
-                    <p class="text-lg opacity-90 mb-6 font-medium">1st Semester, Academic Year 2024–2025</p>
-                    <div class="h-[1px] w-full bg-white/20 mb-6"></div> 
+                    <span class="text-[10px] font-bold text-brand uppercase tracking-[0.4em] block mb-8">Personal Biography</span>
+                    
+                    <div class="grid md:grid-cols-2 gap-10">
+                        <div class="space-y-6">
+                            <h2 class="text-4xl font-bold text-white tracking-tighter italic">About Me</h2>
+                            <p class="text-sm leading-relaxed text-slate-400">
+                                I am an aspiring software developer with a deep-rooted interest in building systems that solve practical problems. My journey at <span class="text-white font-semibold">St. Anthony's College</span> has been defined by a commitment to academic rigor and a hands-on approach to emerging technologies.
+                            </p>
+                            <p class="text-sm leading-relaxed text-slate-400">
+                                Beyond technical development, I thrive in collaborative environments, leveraging my experience in leadership and project management to ensure team goals are met with precision and innovation.
+                            </p>
+                            
+                            <div class="pt-4">
+                                <span class="text-[9px] font-bold text-slate-500 uppercase tracking-widest block mb-4">Core Strengths</span>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-white/5 rounded-md text-[10px] font-bold text-white border border-white/5">Project Management</span>
+                                    <span class="px-3 py-1 bg-white/5 rounded-md text-[10px] font-bold text-white border border-white/5">Communication</span>
+                                    <span class="px-3 py-1 bg-white/5 rounded-md text-[10px] font-bold text-white border border-white/5">Problem Solving</span>
+                                </div>
+                            </div>
+                        </div>
 
-                    <h2 class="text-4xl font-black mb-2">1st Place AI Hackathon</h2>
-                    <p class="text-lg opacity-90 mb-6 font-medium">ITD Week 2025 - Technoloympics</p>
-                    <div class="h-[1px] w-full bg-white/20 mb-6"></div> 
-
-
-                    <p class="text-sm font-mono tracking-widest uppercase">Academic Excellence • St. Anthony's College</p> 
-
-
+                        <div class="space-y-4 bg-white/[0.02] p-6 rounded-2xl border border-white/5">
+                            <h3 class="text-white font-bold text-xs uppercase tracking-widest mb-6 underline decoration-brand underline-offset-8">Data Profile</h3>
+                            <div class="space-y-4 text-xs">
+                                <div class="flex justify-between border-b border-white/5 pb-2">
+                                    <span class="text-slate-500 font-bold uppercase text-[9px]">Age</span>
+                                    <span class="text-white">22 Years Old</span>
+                                </div>
+                                <div class="flex justify-between border-b border-white/5 pb-2">
+                                    <span class="text-slate-500 font-bold uppercase text-[9px]">Birthdate</span>
+                                    <span class="text-white">Dec. 22, 2003</span>
+                                </div>
+                                <div class="flex justify-between border-b border-white/5 pb-2">
+                                    <span class="text-slate-500 font-bold uppercase text-[9px]">Gender</span>
+                                    <span class="text-white">Male</span>
+                                </div>
+                                <div class="flex justify-between border-b border-white/5 pb-2">
+                                    <span class="text-slate-500 font-bold uppercase text-[9px]">Languages</span>
+                                    <span class="text-white">English, Tagalog, Karay-a</span>
+                                </div>
+                                <div class="flex justify-between border-b border-white/5 pb-2">
+                                    <span class="text-slate-500 font-bold uppercase text-[9px]">Address</span>
+                                    <span class="text-white text-right">San Jose de Buenavista, Antique</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Organization Leadership -->
-                <div class="p-10 rounded-3xl bg-card border border-white/10 reveal">
-                    <span class="text-[10px] font-bold text-brand uppercase tracking-[0.3em] block mb-8">Leadership</span>
-                    <div class="space-y-6">
-                        <div>
-                            <p class="text-white font-bold text-lg">Cyberian Auditor</p>
-                            <p class="text-slate-500 text-sm italic">A.Y. 2025 – 2026</p>
+                <!-- MINIMIZED ACHIEVEMENTS CARD -->
+                <div class="p-10 rounded-3xl bg-card border border-white/10 reveal flex flex-col justify-between shadow-2xl">
+                    <div>
+                        <span class="text-[10px] font-bold text-brand uppercase tracking-[0.4em] block mb-10">Recognitions</span>
+                        <div class="space-y-8">
+                            <div class="group">
+                                <p class="text-[10px] text-slate-600 font-bold uppercase tracking-widest mb-1 group-hover:text-brand transition-colors italic">A.Y. 2024–2025</p>
+                                <h4 class="text-white font-black text-lg group-hover:translate-x-1 transition-transform tracking-tight leading-none mb-1">Dean's Lister</h4>
+                                <p class="text-[10px] text-slate-500 uppercase">St. Anthony's College</p>
+                            </div>
+                            
+                            <div class="group">
+                                <p class="text-[10px] text-slate-600 font-bold uppercase tracking-widest mb-1 group-hover:text-brand transition-colors italic">Technolympics 2025</p>
+                                <h4 class="text-white font-black text-lg group-hover:translate-x-1 transition-transform tracking-tight leading-none mb-1">AI Hackathon Champion</h4>
+                                <p class="text-[10px] text-slate-500 uppercase">1st Place Achievement</p>
+                            </div>
+
+                            <div class="group">
+                                <p class="text-[10px] text-slate-600 font-bold uppercase tracking-widest mb-1 group-hover:text-brand transition-colors italic">Academic Excellence</p>
+                                <h4 class="text-white font-black text-lg group-hover:translate-x-1 transition-transform tracking-tight leading-none mb-1">Top Pythonista Award</h4>
+                                <p class="text-[10px] text-slate-500 uppercase">IPT 102 - Python Programming</p>
+                            </div>
                         </div>
-                        <div>
-                            <p class="text-white font-bold text-lg">3rd Year Rep.</p>
-                            <p class="text-slate-500 text-sm italic">A.Y. 2024 – 2025</p>
-                        </div>
+                    </div>
+
+                    <div class="pt-8 border-t border-white/5 mt-8">
+                        <p class="text-[9px] text-slate-600 font-bold uppercase tracking-[0.2em]">SAC Cyberian Leadership</p>
+                        <p class="text-white text-xs mt-2 font-mono">Auditor & 3rd Year Rep.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Technical Stack -->
-        <section class="mb-40 reveal">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-white tracking-tight">Technical Proficiency</h2>
-                <div class="h-1 w-20 bg-brand mx-auto mt-4"></div>
+        <section id="skills" class="mb-40 reveal">
+            <div class="flex items-center gap-4 mb-16">
+                <h2 class="text-3xl font-black text-white uppercase tracking-tighter">Technical_Stack</h2>
+                <div class="h-[1px] flex-grow bg-white/5"></div>
             </div>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-                <div class="p-6 bg-card rounded-2xl border border-white/5 hover:border-brand/30 transition-all">
-                    <h3 class="text-white font-bold mb-4 flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-brand"></span> Languages
-                    </h3>
-                    <ul class="text-sm space-y-2 text-slate-400 font-medium">
-                        <li>PHP</li>
-                        <li>Python</li>
-                        <li>Java </li>
-                    </ul>
+            
+            <div class="grid md:grid-cols-2 gap-x-20 gap-y-10">
+                <div class="space-y-8">
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="text-xs font-bold text-white uppercase tracking-widest">Python & AI Logic</span>
+                            <span class="text-[15px] font-mono text-brand">85%</span>
+                        </div>
+                        <div class="w-full bg-white/5 h-1 rounded-full overflow-hidden">
+                            <div class="skill-bar bg-brand h-full rounded-full transition-all duration-1000 w-0" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="text-xs font-bold text-white uppercase tracking-widest">Web Development (PHP)</span>
+                            <span class="text-[15px] font-mono text-brand">85%</span>
+                        </div>
+                        <div class="w-full bg-white/5 h-1 rounded-full overflow-hidden">
+                            <div class="skill-bar bg-brand h-full rounded-full transition-all duration-1000 w-0" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="text-xs font-bold text-white uppercase tracking-widest">Java</span>
+                            <span class="text-[15px] font-mono text-brand">70%</span>
+                        </div>
+                        <div class="w-full bg-white/5 h-1 rounded-full overflow-hidden">
+                            <div class="skill-bar bg-brand h-full rounded-full transition-all duration-1000 w-0" data-width="70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="text-xs font-bold text-white uppercase tracking-widest">SQL Management</span>
+                            <span class="text-[15px] font-mono text-brand">85%</span>
+                        </div>
+                        <div class="w-full bg-white/5 h-1 rounded-full overflow-hidden">
+                            <div class="skill-bar bg-brand h-full rounded-full transition-all duration-1000 w-0" data-width="85%"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="p-6 bg-card rounded-2xl border border-white/5 hover:border-brand/30 transition-all">
-                    <h3 class="text-white font-bold mb-4 flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-brand"></span> Web Tech
-                    </h3>
-                    <ul class="text-sm space-y-2 text-slate-400 font-medium">
-                        <li>HTML5</li>
-                        <li>CSS</li>
-                        <li>Bootstrap</li>
-                    </ul>
-                </div>
-                <div class="p-6 bg-card rounded-2xl border border-white/5 hover:border-brand/30 transition-all">
-                    <h3 class="text-white font-bold mb-4 flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-brand"></span> Backend & IoT
-                    </h3>
-                    <ul class="text-sm space-y-2 text-slate-400 font-medium">
-                        <li>Node.js</li>
-                        <li>Firebase</li>
-                        <li>Arduino IDE</li>
-                        <li>ESP32</li>
-                    </ul>
-                </div>
-                <div class="p-6 bg-card rounded-2xl border border-white/5 hover:border-brand/30 transition-all">
-                    <h3 class="text-white font-bold mb-4 flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-brand"></span> Tools
-                    </h3>
-                    <ul class="text-sm space-y-2 text-slate-400 font-medium">
-                        <li>VS Code</li>
-                        <li>Figma</li>
-                    </ul>
+
+                <div class="space-y-8">
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="text-xs font-bold text-white uppercase tracking-widest">NoSQL (Firebase)</span>
+                            <span class="text-[15px] font-mono text-brand">80%</span>
+                        </div>
+                        <div class="w-full bg-white/5 h-1 rounded-full overflow-hidden">
+                            <div class="skill-bar bg-brand h-full rounded-full transition-all duration-1000 w-0" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="text-xs font-bold text-white uppercase tracking-widest">Android Development</span>
+                            <span class="text-[15px] font-mono text-brand">60%</span>
+                        </div>
+                        <div class="w-full bg-white/5 h-1 rounded-full overflow-hidden">
+                            <div class="skill-bar bg-brand h-full rounded-full transition-all duration-1000 w-0" data-width="60%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="text-xs font-bold text-white uppercase tracking-widest">UI/UX Design (Figma)</span>
+                            <span class="text-[15px] font-mono text-brand">80%</span>
+                        </div>
+                        <div class="w-full bg-white/5 h-1 rounded-full overflow-hidden">
+                            <div class="skill-bar bg-brand h-full rounded-full transition-all duration-1000 w-0" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="flex justify-between mb-2">
+                            <span class="text-xs font-bold text-white uppercase tracking-widest">C# Development</span>
+                            <span class="text-[15px] font-mono text-brand">70%</span>
+                        </div>
+                        <div class="w-full bg-white/5 h-1 rounded-full overflow-hidden">
+                            <div class="skill-bar bg-brand h-full rounded-full transition-all duration-1000 w-0" data-width="70%"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Grid -->
+        <!-- Projects -->
         <section id="projects" class="mb-40">
-            <div class="flex items-center justify-between mb-16 reveal">
-                <h2 class="text-4xl font-bold text-white tracking-tighter uppercase">Project Deployment</h2>
-            </div>
-
+            <h2 class="text-4xl font-black text-white uppercase tracking-tighter mb-16 underline decoration-brand/30 underline-offset-8">Featured_Projects</h2>
             <div class="grid md:grid-cols-2 gap-8">
-                <!-- Project 1: CAPSTONE -->
-                <div class="reveal group p-10 rounded-3xl bg-card border border-white/10 hover:border-brand transition-all flex flex-col">
-                    <div class="flex justify-between items-center mb-10">
-                        <span class="text-[10px] font-bold text-brand uppercase tracking-widest px-4 py-1 border border-brand/20 rounded-full">Primary Project</span>
-                        <span class="text-[10px] font-mono text-slate-500 uppercase">2025 • Active</span>
-                    </div>
+                <!-- Project 1 -->
+                <div class="reveal group p-10 rounded-3xl bg-card border border-white/5 hover:border-brand/50 transition-all flex flex-col">
+                    <span class="text-[10px] font-bold text-brand uppercase tracking-widest mb-10">Capstone Project</span>
                     <h3 class="text-2xl font-bold text-white mb-4">IoT Smart Distress System</h3>
-                    <p class="text-slate-400 text-sm mb-10 leading-relaxed">
-                        Full-stack IoT emergency response system. Built with <span class="text-white">Node.js, Firebase, and ESP32</span>. Optimized for San Jose de Buenavista local response.
-                    </p>
-                    <div class="mt-auto flex flex-wrap gap-4 text-[10px] font-bold text-brand uppercase">
-                        <span>Capstone Leader</span>
-                        <span>Lead Programmer</span>
-                        <span>Full-Stack</span>
-                        <span>IoT Hardware</span>
+                    <p class="text-slate-400 text-sm mb-10 leading-relaxed italic">Local emergency response ecosystem for San Jose de Buenavista. Real-time localization via hardware-software integration.</p>
+                    <div class="mt-auto flex flex-wrap gap-2">
+                        <span class="text-[9px] font-bold px-2 py-1 bg-white/5 text-white uppercase">Leader</span>
+                        <span class="text-[9px] font-bold px-2 py-1 bg-white/5 text-white uppercase">Programmer</span>
+                        <span class="text-[9px] font-bold px-2 py-1 bg-white/5 text-white uppercase">Technical Documenter</span>
                     </div>
                 </div>
-
-                <!-- Project 2: GECKER -->
-                <div class="reveal p-10 rounded-3xl bg-card border border-white/10 flex flex-col">
-                    <div class="flex justify-between items-center mb-10">
-                        <span class="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Automation</span>
-                        <span class="text-[10px] font-mono text-slate-500 uppercase">May 2025</span>
-                    </div>
+                <!-- Project 2 -->
+                <div class="reveal p-10 rounded-3xl bg-card border border-white/5 flex flex-col hover:border-brand/50 transition-all">
+                    <span class="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-10">Automation</span>
                     <h3 class="text-2xl font-bold text-white mb-4">GECKER Exam Checker</h3>
-                    <p class="text-slate-400 text-sm mb-10 leading-relaxed">
-                        Automated examination checker utilizing high-performance image processing algorithms to verify student test results instantly.
-                    </p>
-                    <div class="mt-auto flex flex-wrap gap-4 text-[10px] font-bold text-slate-500 uppercase">
-                        <span>Assistant Leader</span>
-                        <span>Python</span>
-                        <span>Optimization</span>
+                    <p class="text-slate-400 text-sm mb-10 leading-relaxed">Automated major examination result verification tool using high-performance algorithmic logic.</p>
+                    <div class="mt-auto flex flex-wrap gap-2">
+                        <span class="text-[9px] font-bold px-2 py-1 bg-white/5 text-slate-400 uppercase">Programmer</span>
                     </div>
                 </div>
-
-                <!-- Project 3: LearnMate -->
-                <div class="reveal p-10 rounded-3xl bg-card border border-white/10 flex flex-col">
-                    <span class="text-[10px] font-bold text-slate-500 mb-8 uppercase tracking-widest">UX Prototyping</span>
+                <!-- Project 3 -->
+                <div class="reveal p-10 rounded-3xl bg-card border border-white/5 flex flex-col hover:border-brand/50 transition-all">
+                    <span class="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-10">UI/UX Prototyping</span>
                     <h3 class="text-2xl font-bold text-white mb-4">LearnMate AI</h3>
-                    <p class="text-slate-400 text-sm mb-8">System interface for student performance tracking and study plan generation.</p>
-                    <div class="mt-auto px-4 py-2 rounded-lg bg-blue-500/5 border border-blue-500/10 text-brand text-[11px] font-bold text-center">FIGMA PROTOTYPE</div>
+                    <p class="text-slate-400 text-sm mb-10 leading-relaxed">Web-based tracking system analyzing academic records to support personalized learning paths.</p>
+                    <div class="mt-auto flex flex-wrap gap-2">
+                        <span class="text-[9px] font-bold px-2 py-1 bg-white/5 text-slate-400 uppercase">Leader</span>
+                        <span class="text-[9px] font-bold px-2 py-1 bg-white/5 text-slate-400 uppercase">UI/UX Designer</span>
+                        <span class="text-[9px] font-bold px-2 py-1 bg-white/5 text-slate-400 uppercase">Technical Documenter</span>
+                    </div>
                 </div>
-
-                <!-- Project 4: MindMate -->
-                <div class="reveal p-10 rounded-3xl bg-card border border-white/10 flex flex-col">
-                    <span class="text-[10px] font-bold text-slate-500 mb-8 uppercase tracking-widest">Decision Logic</span>
+                <!-- Project 4 -->
+                <div class="reveal p-10 rounded-3xl bg-card border border-white/5 flex flex-col hover:border-brand/50 transition-all">
+                    <span class="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-10">UI/UX Prototyping</span>
                     <h3 class="text-2xl font-bold text-white mb-4">MindMate AI</h3>
-                    <p class="text-slate-400 text-sm mb-8">Algorithmic workflow design for a mental wellness navigator using complex decision trees.</p>
-                    <div class="mt-auto px-4 py-2 rounded-lg bg-blue-500/5 border border-blue-500/10 text-brand text-[11px] font-bold text-center">FIGMA PROTOTYPE</div>
+                    <p class="text-slate-400 text-sm mb-10 leading-relaxed">Support system for emotional state tracking and access to self-care resources through AI logic.</p>
+                    <div class="mt-auto flex flex-wrap gap-2">
+                        <span class="text-[9px] font-bold px-2 py-1 bg-white/5 text-slate-400 uppercase">Leader</span>
+                        <span class="text-[9px] font-bold px-2 py-1 bg-white/5 text-slate-400 uppercase">Technical Documenter</span>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Call to Action -->
-        <section class="py-24 px-6 text-center reveal border-t border-white/5">
-            <h2 class="text-4xl font-bold text-white mb-8">Start a Collaboration</h2>
-            <p class="text-xl text-slate-400 mb-12 max-w-2xl mx-auto">I am ready to bring my software development and problem-solving skills to your team for OJT.</p>
-            <div class="flex flex-col md:flex-row justify-center gap-4">
-                <a href="mailto:pechaycojoshuaangeloo@gmail.com" class="px-10 py-5 bg-brand text-white font-bold rounded-xl shadow-lg shadow-blue-500/20 hover:scale-105 transition-transform">Send Email</a>
-                <a href="https://www.linkedin.com/in/joshua-angelo-pechayco-892b9339a" target="_blank" class="px-10 py-5 bg-white/5 text-white font-bold rounded-xl border border-white/10 hover:bg-white/10 transition-all">View LinkedIn</a>
+        <!-- Contact -->
+        <section class="py-24 px-6 text-center reveal">
+            <h2 class="text-4xl font-black text-white mb-4 uppercase tracking-tighter italic">Get In Touch</h2>
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <a href="mailto:pechaycojoshuaangeloo@gmail.com" class="text-white text-lg font-bold hover:text-brand transition-all underline underline-offset-8 decoration-brand italic">pechaycojoshuaangeloo@gmail.com</a>
             </div>
         </section>
     </main>
 
     <footer class="py-10 border-t border-white/5 text-center">
-        <p class="text-[10px] font-bold text-slate-600 tracking-[0.4em] uppercase">© 2026 J. Pechayco • San Jose de Buenavista, Antique</p>
+        <p class="text-[10px] font-bold text-slate-700 tracking-[0.5em] uppercase">© 2026 Joshua Angelo Pechayco • Antique, PH</p>
     </footer>
 
     <script src="script.js"></script>

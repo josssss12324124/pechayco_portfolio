@@ -1,30 +1,15 @@
-/* Body & Layout Settings */
-body {
-    font-family: 'Inter', sans-serif;
-    letter-spacing: -0.01em;
-}
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: #2563eb; border-radius: 10px; }
 
-/* Custom Scrollbar (Blue Theme) */
-::-webkit-scrollbar {
-    width: 6px;
-}
-::-webkit-scrollbar-track {
-    background: #0a0a0a;
-}
-::-webkit-scrollbar-thumb {
-    background: #2563eb;
-    border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: #1e40af;
-}
+body { font-family: 'Inter', sans-serif; letter-spacing: -0.01em; }
 
-/* Animations Logic */
+/* Reveal Animations */
 .reveal {
     opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-    will-change: transform, opacity;
+    transform: translateY(30px);
+    transition: all 0.9s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .reveal.active {
@@ -32,17 +17,8 @@ body {
     transform: translateY(0);
 }
 
-/* Card Hover Enhancements */
-.bg-card {
-    transition: all 0.3s ease;
-}
+/* Nav Dynamics */
+.nav-scrolled { background: rgba(10, 10, 10, 0.95); padding: 0.5rem 0; box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5); }
 
-.bg-card:hover {
-    background: #151515;
-    border-color: rgba(37, 99, 235, 0.4);
-}
-
-/* Resume link hover */
-a[download]:hover {
-    box-shadow: 0 0 15px rgba(37, 99, 235, 0.3);
-}
+/* Card Hover */
+.bg-card { transition: transform 0.3s ease, border-color 0.3s ease; }
